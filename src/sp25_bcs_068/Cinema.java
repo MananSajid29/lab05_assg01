@@ -13,6 +13,7 @@ public class Cinema{
          screens = new Screen[numScreens];
       for(int i = 0; i<screens.length; i++)
             screens[i]=new Screen();
+          System.out.println();
    }
 
   public void setCinemaName(String n)
